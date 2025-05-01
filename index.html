@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabeer's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css"> <!-- Linked CSS file -->
+</head>
+<body>
+    <div class="navbar">
+        <div><strong>Kabeer</strong></div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+    <div class="hero">
+        <img src="./images/kabeer img port.png" alt="Kabeer's Photo" class="profile-img">
+        <h1>Hello, I'm Kabeer</h1>
+        <p>ServiceNow Developer & FrontEnd Developer</p>
+        
+        <div class="buttons">
+            <a href="#" class="btn-primary" onclick="downloadResume()">Download CV</a>
+            <a href="#contact" class="btn-secondary">Contact Info</a>
+        </div>
+        
+        <div class="socials">
+            <img src="./images/linkedIn(1).png" alt="My linkedIn Profile" class="icon" onclick="location.href='https://linkedin.com'">
+            <img src="./images/github2.png" alt="My github Profile" class="icon" onclick="location.href='https://github.com/kabeergithubrit'">
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <img src="./images/kabeer img port.png" alt="Kabeer">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <div class="info-cards">
+                <div class="info-card">
+                    <h3>Experience</h3>
+                    <p>ServiceNow Developer</p>
+                    <p>1+ years of experience</p>
+                </div>
+                <div class="info-card">
+                    <h3>Education</h3>
+                    <p>B.E. IT Engineering</p>
+                    <p>Crescent University</p>
+                </div>
+            </div>
+            <p>Passionate about IT service management and ServiceNow development. Always eager to learn and grow in the field of IT solutions.</p>
+        </div>
+    </div>
+
+    <section id="experience" class="experience">
+        <h2>Explore My <strong>Experience</strong></h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>Frontend Development</h3>
+                <div class="experience-list">
+                    <p><span class="check-icon">✔</span> <strong>HTML</strong> - Experienced</p>
+                    <p><span class="check-icon">✔</span> <strong>CSS</strong> - Experienced</p>
+                    <p><span class="check-icon">✔</span> <strong>SASS</strong> - Intermediate</p>
+                    <p><span class="check-icon">✔</span> <strong>JavaScript</strong> - Basic</p>
+                    <p><span class="check-icon">✔</span> <strong>TypeScript</strong> - Basic</p>
+                    <p><span class="check-icon">✔</span> <strong>Material UI</strong> - Intermediate</p>
+                </div>
+            </div>
+            <div class="experience-box">
+                <h3>Backend Development</h3>
+                <div class="experience-list">
+                    <p><span class="check-icon">✔</span> <strong>PostgreSQL</strong> - Basic</p>
+                    <p><span class="check-icon">✔</span> <strong>Express JS</strong> - Intermediate</p>
+                    <p><span class="check-icon">✔</span> <strong>Node JS</strong> - Intermediate</p>
+                    <p><span class="check-icon">✔</span> <strong>Git</strong> - Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 style="text-align: center;">My Projects</h1>
+        <div class="projects-section">
+            <div class="project-card">
+                <img src="./images/project1.jpg" alt="Project One">
+                <div class="project-content">
+                    <div class="project-title">Project One</div>
+                    <div class="project-buttons">
+                        <button class="btn github">GitHub</button>
+                        <button class="btn demo">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/project2.jpg" alt="Project Two">
+                <div class="project-content">
+                    <div class="project-title">Project Two</div>
+                    <div class="project-buttons">
+                        <button class="btn github">GitHub</button>
+                        <button class="btn demo">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/project3.jpg" alt="Project Three">
+                <div class="project-content">
+                    <div class="project-title">Project Three</div>
+                    <div class="project-buttons">
+                        <button class="btn github">GitHub</button>
+                        <button class="btn demo">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <p class="contact-subtitle">Get in Touch</p>
+        <h2 class="contact-title">Contact Me</h2>
+        <div class="contact-box">
+            <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <span>kabeerahamed2001@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
